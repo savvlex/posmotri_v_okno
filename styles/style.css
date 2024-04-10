@@ -49,12 +49,10 @@ ol {
 
 
 .content {
+  margin: 135px 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
   gap: 30px;
-  width: 100%;
-  padding: 120px 30px 133px;
+  align-items: flex-end;
 }
 
 .result {
