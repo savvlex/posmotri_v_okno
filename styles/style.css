@@ -9,15 +9,14 @@ html {
 }
 
 .page {
+  display: flex;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  box-sizing: border-box;
-  padding-top: 16px;
 }
 
 h1,
@@ -49,14 +48,11 @@ ol {
   white-space: nowrap;
 }
 
-
 .content {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
-  padding: 120px 30px 134px;
   gap: 30px;
+  margin: auto 30px;
 }
 
 .result {
