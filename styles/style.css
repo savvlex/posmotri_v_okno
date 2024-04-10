@@ -16,6 +16,8 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  box-sizing: border-box;
+  padding-top: 16px;
 }
 
 h1,
@@ -49,10 +51,12 @@ ol {
 
 
 .content {
-  margin: 135px 30px;
+  width: 100%;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   align-items: flex-end;
+  padding: 120px 30px 134px;
+  gap: 30px;
 }
 
 .result {
@@ -63,12 +67,12 @@ ol {
 
 .result__video-container {
   position: relative;
-  width: 711px;
+  width: 710px;
   height: 386px;
 }
 
 .result__video {
-  width: 711px;;
+  width: 710px;;
   height: 386px;
   object-fit: cover;
   object-position: center;
